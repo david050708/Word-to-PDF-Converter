@@ -13,7 +13,7 @@ win.iconbitmap("C:/Users/kani/Downloads/download.ico")
 def openfile():
   file = askopenfile(filetypes=[('Word Files', '*.docx')])
   convert(file.name,)   
-  messagebox.showinfo("Done", "File successfully converted ")
+  showinfo("Done", "File successfully converted ")
 
 label=tk.Label(win,text="Choose a file!")
 label.grid(row=10,column=5,padx=5,pady=5)
