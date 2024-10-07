@@ -8,7 +8,7 @@ from docx2pdf import convert
 win=tk.Tk()
 win.title("AppDev Word to Pdf Converter")
 win.geometry("200x70")
-win.iconbitmap("C:/Users/kani/Downloads/download.ico")
+win.iconbitmap("")
 
 def openfile():
   file = askopenfile(filetypes=[('Word Files', '*.docx')])
